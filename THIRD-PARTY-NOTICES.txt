@@ -1,0 +1,39 @@
+﻿LLACC - Pemberitahuan komponen pihak ketiga / Third-party notices
+=================================================================
+
+LLACC (c) 2026 Andi Arsal Nur, MIT License (lihat / see LICENSE.txt).
+
+Pustaka pihak ketiga di folder lib (disertakan saat dibagikan ulang)
+Third-party libraries in the lib folder (keep this notice when redistributing):
+
+1. SharpCompress 0.38.0
+   Copyright (c) 2014 Adam Hathcock
+   Lisensi / License: MIT (https://github.com/adamhathcock/sharpcompress)
+
+2. Komponen Microsoft (.NET) / Microsoft (.NET) components
+   (c) Microsoft Corporation. All rights reserved.
+   Lisensi / License: MIT (https://github.com/dotnet/runtime)
+   - System.Buffers 4.6
+   - System.Memory 4.6
+   - System.Numerics.Vectors 4.6
+   - System.Runtime.CompilerServices.Unsafe 6.0.0
+Teks lisensi MIT standar (berlaku untuk seluruh komponen di atas, dengan
+pemegang hak cipta masing-masing):
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+Catatan: pemegang hak cipta diambil dari metadata DLL masing-masing; jenis lisensi
+(MIT) berdasarkan repositori resmi proyeknya. Periksa file lisensi di repositori
+masing-masing bila memerlukan teks lengkap yang otoritatif.

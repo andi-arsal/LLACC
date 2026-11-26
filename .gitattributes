@@ -1,0 +1,20 @@
+# Normalisasi akhir baris: LF di repositori, CRLF untuk file proyek Windows
+* text=auto
+
+*.cs      text eol=crlf diff=csharp
+*.csproj  text eol=crlf
+*.sln     text eol=crlf
+*.config  text eol=crlf
+*.example text eol=crlf
+*.ps1     text eol=crlf
+*.md      text
+*.txt     text
+
+# File biner: jangan diubah atau di-diff sebagai teks
+*.dll     binary
+*.exe     binary
+*.snk     binary
+*.bmp     binary
+*.png     binary
+*.jpg     binary
+*.llacc   binary

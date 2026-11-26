@@ -1,0 +1,64 @@
+# Hasil build (termasuk bin/test-x64 dan bin/test-x86 dari test.ps1)
+[Bb]in/
+[Oo]bj/
+
+# PENTING: jangan menambahkan "*.dll" di sini.
+# DLL di folder lib/ dibutuhkan untuk build dan harus ikut di-commit.
+
+# SharpDevelop
+*.sdsettings
+*.userprefs
+*.pidb
+*.cache
+*.FileListAbsolute.txt
+OpenCover/
+
+# Visual Studio / VS Code / Rider
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Debug, log, dan hasil uji
+*.pdb
+*.mdb
+*.log
+*.tlog
+[Tt]est[Rr]esults/
+
+# Paket dan arsip distribusi
+*.nupkg
+*.snupkg
+packages/
+publish/
+dist/
+*.zip
+*.7z
+*.rar
+
+# Keluaran kompresi LLACC
+*.llacc
+
+# File sementara
+*.tmp
+*.temp
+*.bak
+*.orig
+*.swp
+*~
+
+# File sistem
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Konfigurasi lokal / rahasia (app.config.example tetap di-commit)
+*.env
+.env.*
+*.pfx
+.claude/settings.local.json
