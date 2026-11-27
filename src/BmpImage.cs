@@ -5,7 +5,7 @@ using System.IO;
 
 namespace Llacc
 {
-	/// <summary>BMP 24-bit tanpa kompresi. Header, byte pengisi baris, dan ekor file disimpan apa adanya.</summary>
+	/// <summary>BMP 24-bit tanpa kompresi. Header, byte pengisi baris, dan ekstensi file disimpan apa adanya.</summary>
 	sealed class BmpImage
 	{
 		/// <summary>Batas piksel (sekitar 100 megapiksel) agar kebutuhan memori tetap wajar.</summary>
